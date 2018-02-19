@@ -11,7 +11,9 @@ Easy to use and figure out diary system
                 
 2. add hashed username and hashed password to your database where userit.php is looking.
 
-3. enjoy!
+3. add them to your server so that index where you want and then to there folders: css , js and php and add to those folders those files that have matching ends (like diario.php and userit.php to php-folder)
+
+4. enjoy!
 
 br
 Petri
