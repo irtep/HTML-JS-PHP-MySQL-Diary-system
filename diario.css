@@ -1,0 +1,53 @@
+    body
+    {
+
+        background-color: #ccffcc;
+
+    }
+
+
+    #centerPage 
+    {
+
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        margin: auto;
+        
+    }
+
+    #allTheNotes
+    {
+
+        width: 600px;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        text-align: left;
+        text-shadow: 2px 2px gray;
+
+    }
+    
+    #links1 
+    {
+
+        position: absolute;
+        left: 0px;
+        top:25%;
+        bottom:75%;
+        margin:auto;
+    		      
+    }
+    
+    #photos
+    {
+        
+        position: absolute;
+
+        left:35%;
+        right:65%;
+        top:40%;
+        margin:auto;
+
+    
+    }
+

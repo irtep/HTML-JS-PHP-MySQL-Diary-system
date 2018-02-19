@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+
+    <link rel="stylesheet" type="text/css" href="css/diario.css">
+
+  </head>
+
+  <body>
+
+    <div id="centerPage">
+
+      <center>
+
+        <br><br><br><br>
+
+        Welcome to blog of <br><br>
+        A M O R C I T O S <br><br>
+        Today is <span id="todayIs"></span>
+
+        <br><br><br><br>
+ 
+        <input class= "admins" type="button" value="Add note" id="addNote"></input> 
+
+        <br><br>
+
+        <form id="detailForm" method="post" name="detailForm">
+    
+            <center>
+
+              <textarea id="textAlue1" rows="30" cols="50">
+              </textarea>
+              
+              <input id="noteSubmit" type="button" value="Submit new note" /> 
+            </center>
+    
+        </form>
+ 
+        <p id="allTheNotes"></p>
+
+      </center>      
+      
+    </div>
+
+    <div id="loginit">
+
+      <center>
+
+        <h2>Please log in:</h2>
+        
+        <form id="form_id" method="post" name="myform">
+
+          <label>User Name :</label>
+          <input type="text" name="username" id="username"/>
+          <label>Password :</label>
+          <input type="password" name="password" id="password"/>
+          <input class="loginz" type="button" value="Login" id="submit" />
+
+        </form>
+
+      </center>
+
+    </div>
+    
+    <script src="js/diario.js"></script>
+
+  </body>
+
+</html>
